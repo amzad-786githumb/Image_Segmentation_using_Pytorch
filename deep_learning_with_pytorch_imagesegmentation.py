@@ -281,11 +281,3 @@ def inference(indx):
 
   return helper.show_image(image, mask, pred_mask.detach().cpu().squeeze(0))
 
-inference(3)
-
-"""# For updates about upcoming and current guided projects follow me on...
-
-Twitter : @parth_AI
-
-Linkedin : www.linkedin.com/in/pdhameliya
-"""
